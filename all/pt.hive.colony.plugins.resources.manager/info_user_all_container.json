@@ -9,7 +9,7 @@
     "version" : "1.0.0",
     "author" : "Hive Solutions Lda. <development@hive.pt>",
     "dependencies" : [],
-    "resources" : ["configuration/info_user/run_mode/all/configuration.py",
-            "configuration/info_user/run_mode/all/resources.xml"],
-    "extra_resources" : ["configuration/info_user/run_mode/all/configuration.pyc"]
+    "resources" : ["configuration/info_user/configuration.py",
+            "configuration/info_user/resources.xml"],
+    "extra_resources" : ["configuration/info_user/configuration.pyc"]
 }
