@@ -1,0 +1,15 @@
+{
+    "type" : "container",
+    "sub_type" : "configuration",
+    "id" : "pt.hive.cronus.configuration.all.info_user",
+    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "name" : "Info User All Configuration",
+    "short_name" : "Info User All",
+    "description" : "The info user configuration for the all profile",
+    "version" : "1.0.0",
+    "author" : "Hive Solutions Lda. <development@hive.pt>",
+    "dependencies" : [],
+    "resources" : ["configuration/info_user/run_mode/all/configuration.py",
+            "configuration/info_user/run_mode/all/resources.xml"],
+    "extra_resources" : ["configuration/info_user/run_mode/all/configuration.pyc"]
+}
