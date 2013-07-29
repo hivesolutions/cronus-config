@@ -63,7 +63,9 @@ configuration = {
         "resolution_order" : [
             "hive.pt",
             "www.hive.pt",
-            "blog.hive.pt"
+            "blog.hive.pt",
+            "openid.hive.pt",
+            "getcolony.com"
         ],
         "hive.pt" : {
             "redirections" : {
@@ -108,12 +110,24 @@ configuration = {
                     "recursive_redirection" : True
                 }
             }
+        },
+        "getcolony.com" : {
+            "redirections" : {
+                "resolution_order" : [
+                    "/"
+                ],
+                "/" : {
+                    "target" : "/dynamic/rest/mvc/colony_site/",
+                    "recursive_redirection" : True
+                }
+            }
         }
     },
     "redirections" : {
         "resolution_order" : [
             "/blog",
             "/openid",
+            "/colony",
             "/"
         ],
         "/blog" : {
@@ -122,6 +136,10 @@ configuration = {
         },
         "/openid" : {
             "target" : "/dynamic/rest/mvc/hive_openid/",
+            "recursive_redirection" : True
+        },
+        "/colony" : {
+            "target" : "/dynamic/rest/mvc/colony_site/",
             "recursive_redirection" : True
         },
         "/" : {
