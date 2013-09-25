@@ -36,6 +36,34 @@ __license__ = "Hive Solutions Confidential Usage License (HSCUL)"
 
 configuration = {
     "user_information" : {
+        "admin" : {
+            "name" : u"System Administrator",
+            "first_name" : u"System",
+            "last_name" : u"Administrator",
+            "email" : u"admin@hive.pt",
+            "username" : u"admin",
+            "website" : u"http://hive.pt",
+            "description" : u"The global system administrator of the system",
+            "images" : {
+                "gravatar" : u"http://www.gravatar.com/avatar/639590e6cd348a5581826da23b78511a"
+            },
+            "social" : {
+                "gravatar" : u"http://gravatar.com/admin",
+                "facebook" : u"http://facebook.com/admin",
+                "twitter" : u"http://twitter.com/admin",
+            },
+            "work" : {
+                "company" : "Hive Solutions",
+                "position" : u"Software Developer",
+                "email" : u"admin@hive.pt",
+                "address" : {
+                    "street" : u"Rua 31 de Janeiro, 190A 3º Dto.",
+                    "zip_code" : u"4000-542",
+                    "city" : u"Porto",
+                    "country" : u"Portugal",
+                }
+            }
+        },
         "joamag" : {
             "name" : u"João Magalhães",
             "first_name" : u"João",
