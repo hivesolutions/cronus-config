@@ -1,0 +1,15 @@
+{
+    "type" : "container",
+    "sub_type" : "configuration",
+    "id" : "pt.hive.cronus.configuration.hive.hive_openid",
+    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "name" : "Hive Openid Hive Configuration",
+    "short_name" : "Hive Openid Hive",
+    "description" : "The hive Openid configuration for the hive profile",
+    "version" : "1.0.0",
+    "author" : "Hive Solutions Lda. <development@hive.pt>",
+    "dependencies" : [],
+    "resources" : ["configuration/hive_openid/run_mode/hive/configuration.py",
+            "configuration/hive_openid/run_mode/hive/resources.xml"],
+    "extra_resources" : ["configuration/hive_openid/run_mode/hive/configuration.pyc"]
+}
