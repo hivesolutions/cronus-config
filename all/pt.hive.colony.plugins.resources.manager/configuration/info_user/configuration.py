@@ -34,8 +34,10 @@ __copyright__ = "Copyright (c) 2008-2015 Hive Solutions Lda."
 __license__ = "Hive Solutions Confidential Usage License (HSCUL)"
 """ The license for the module """
 
+import sys
+
 def u(value, encoding = "utf-8"):
-    if PYTHON_3: return value
+    if sys.version_info[0] >= 3: return value
     return value.decode(encoding)
 
 configuration = {
